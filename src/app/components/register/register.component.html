@@ -1,0 +1,65 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="Form-Container">
+  <form
+    #RegistrationForm="ngForm"
+    (ngSubmit)="register(RegistrationForm.value)"
+    class="form-container"
+  >
+    <h1 class="Form-header">Register For an Account</h1>
+
+    <br />
+
+    <div class="Names">
+      <label class="name">Enter Fullname</label>
+      <input
+        type="text"
+        name="name"
+        ngModel
+        placeholder="james kariuki"
+        class="name"
+      />
+    </div>
+
+    <div class="Names">
+      <label class="name">Enter Fullname</label>
+      <input
+        type="text"
+        name="name"
+        ngModel
+        placeholder="james kariuki"
+        class="name"
+      />
+    </div>
+
+    <div class="area-of-specialization-container">
+      <label class="aos">Enter Area of Specialization</label>
+      <input
+        type="text"
+        name="email"
+        ngModel
+        placeholder="Software Engineering"
+        class="aos"
+      />
+    </div>
+
+    <div class="password-container">
+      <label class="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        ngModel
+        placeholder="********"
+        class="password"
+      />
+    </div>
+
+    <div class="Actions-section">
+      <input type="submit" value="Login" class="submitbtn" />
+      <a class="forgotpwd">Forgot Password?</a>
+    </div>
+    <div class="logintext">
+      <a class="logintext" routerLink="/login">allreadyhaveanaccount?</a>
+    </div>
+  </form>
+</div>

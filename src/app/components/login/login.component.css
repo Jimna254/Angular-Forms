@@ -1,0 +1,61 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formcontainer {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.formcontainer h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.formcontainer input[type="text"],
+.formcontainer input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formcontainer label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.errormsg {
+  color: #ff0000;
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .form-wrapper {
+    padding: 20px;
+  }
+
+  .formcontainer {
+    width: 100%;
+    margin: auto;
+  }
+}

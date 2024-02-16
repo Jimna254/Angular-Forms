@@ -1,0 +1,29 @@
+nav {
+  background: #eeeee4;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  align-items: center;
+  height: 8vh;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+
+  color: #063970;
+}
+
+ul {
+  display: flex;
+  gap: 0px 20px;
+}
+li {
+  list-style-type: none;
+  color: #063970;
+}
+
+li:hover {
+  color: #1e81b0;
+  cursor: pointer;
+}

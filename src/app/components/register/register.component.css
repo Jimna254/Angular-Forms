@@ -1,0 +1,82 @@
+.Form-Container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Form-header {
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+
+.form-container .Names,
+.form-container .area-of-specialization-container,
+.form-container .password-container {
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 16px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 4px;
+}
+
+.Actions-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submitbtn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submitbtn:hover {
+  background-color: #0056b3;
+}
+
+.forgotpwd,
+.logintext {
+  display: block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.forgotpwd:hover,
+.logintext:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .Form-Container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .Form-header {
+    font-size: 20px;
+  }
+}
